@@ -2,10 +2,12 @@ manifest:
   remotes:
     - name: urob
       url-base: https://github.com/urob
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
   projects:
     - name: zmk
       remote: urob
-      revision: main-zephyr-3.2
+      revision: improve-caps-word
       import: app/west.yml
   self:
     path: config
