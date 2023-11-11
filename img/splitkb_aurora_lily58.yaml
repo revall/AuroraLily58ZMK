@@ -189,7 +189,7 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - L2
+  - L1
   - $$mdi:keyboard-tab$$
   - Q
   - W
