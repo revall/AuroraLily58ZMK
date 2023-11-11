@@ -19,7 +19,7 @@
 #define MEH LS(LC(LALT))
 
 // Behaviors Constants
-#define TAPPING_TERM_MS 280
+#define TAPPING_TERM_MS 350
 #define QUICK_TAP_MS 175
 #define GLOBAL_QUICK_TAP_MS 150
 
@@ -42,16 +42,16 @@
             &kp ESC         &kp N1          &kp N2          &kp N3          &kp N4          &kp N5                                              &kp N6          &kp N7          &kp N8          &kp N9          &kp N0          &kp GRAVE
         // ├───────────────├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤                                  ├───────────────├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
         //  12              13              14              15              16              17                                                  18              19              20              21              22              23
-            &kp TAB         &kp Q           &kp W           &kp E           &kp R           &kp T                                               &kp Y           &kp U           &kp I           &kp O           &kp P           &kp K_CANCEL
+            &csl Fn         &kp Q           &kp W           &kp E           &kp R           &kp T                                               &kp Y           &kp U           &kp I           &kp O           &kp P           &csl Fn 
         // ├───────────────├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤                                  ├───────────────├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
         //  24              25              26              27              28              29                                                  30              31              32              33              34              35
             &bkspc_del      &kp A           &kp S           &kp D           &kp F           &kp G                                               &kp H           &kp J           &kp K           &kp L           &kp SQT         &kp ENTER
         // ├───────────────├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤───────────────┤   ├──────────────├───────────────├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
         //  36              37              38              39              40              41              42                  43              44              45              46             47              48              49
-            &kp LCTRL         &mt LCTRL Z     &mt LALT X      &mt LCMD C      &mt MEH V       &kp B           &kp LBKT            &kp RBKT        &kp N           &mt MEH M       &mt RCMD COMMA  &mt RALT DOT   &mt RCTRL SLASH &kp RSHFT
+            &kp LCTRL       &mt LCTRL Z     &mt LALT X      &mt LEFT_GUI C  &mt TAB V       &kp B           &kp LBKT            &kp RBKT        &kp N           &mt TAB M     &mt RIGHT_GUI COMMA &mt RALT DOT &mt RCTRL SLASH &kp RSHFT
         // ╰───────────────┴───────────────┴───────────────┼───────────────┼───────────────┼───────────────┤───────────────┤   ├──────────────├───────────────├───────────────┼───────────────┼───────────────┴───────────────┴───────────────╯
         //                                                  50              51              52              53                   54             55              56              57
-                                                            &kp LGUI        &kp TAB         &mt LSHFT SPACE &smart_num L2 0     &smart_num L2 0 &smart_shift    &kp GRAVE       &kp DEL
+                                                            &kp LGUI        &kp ENTER         &mt LSHFT SPACE &smart_num L2 0     &smart_num L2 0 &smart_shift    &bkspc_del      &kp DEL
         //                                                 ╰───────────────┴───────────────┴───────────────┴───────────────╯   ╰──────────────┴───────────────┴───────────────┴───────────────╯
             >;
 
@@ -68,10 +68,10 @@
             &trans          &kp N1          &kp N2          &kp N3          &kp N4          &kp N5                                              &kp C_PREV      &kp C_VOL_DN    &kp C_VOL_UP    &kp C_NEXT      &kp C_MUTE      &trans
         // ├───────────────├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤                                  ├───────────────├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
         //  24              25              26              27              28              29                                                  30              31              32              33              34              35
-            &trans          &kp N6          &kp N7          &kp N8          &kp N9          &kp N0                                              &kp LEFT        &kp DOWN        &kp UP          &kp RIGHT       &trans          &trans
+            &trans          &kp N6          &kp N7          &kp N8          &kp N9          &kp N0                                              &trans          &kp LEFT        &kp DOWN        &kp UP          &kp RIGHT       &trans
         // ├───────────────├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤───────────────┤   ├──────────────├───────────────├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
         //  36              37              38              39              40              41              42                  43              44              45              46             47              48              49
-            &trans          &sk LCTRL       &sk LALT        &sk LCMD        &sk MEH         &trans          &trans              &trans          &trans          &sk MEH         &trans          &trans          &trans          &trans
+            &trans          &sk LCTRL       &sk LALT        &sk LCMD        &kp TAB         &trans          &trans              &trans          &trans          &kp TAB         &trans          &trans          &trans          &trans
         // ╰───────────────┴───────────────┴───────────────┼───────────────┼───────────────┼───────────────┤───────────────┤   ├──────────────├───────────────├───────────────┼───────────────┼───────────────┴───────────────┴───────────────╯
         //                                                  50              51              52              53                   54             55              56              57
                                                             &trans          &trans          &trans          &cmo L2             &cmo L2         &trans          &trans         &trans
@@ -89,13 +89,13 @@
             &bt BT_CLR      &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4                                        &trans          &trans          &trans          &trans          &trans          &trans
         // ├───────────────├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤                                  ├───────────────├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
         //  12              13              14              15              16              17                                                  18              19              20              21              22              23
-            &out OUT_TOG    &kp F1          &kp F2          &kp F3          &kp F4          &kp F5                                              &trans          &trans          &trans          &trans          &trans          &kp C_POWER
+            &cmo Fn         &kp F1          &kp F2          &kp F3          &kp F4          &kp F5                                              &trans          &trans          &trans          &trans          &trans          &cmo Fn
         // ├───────────────├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤                                  ├───────────────├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
         //  24              25              26              27              28              29                                                  30              31              32              33              34              35
             &sys_reset      &kp F6          &kp F7          &kp F8          &kp F9          &kp F10                                             &trans          &trans          &trans          &trans          &trans          &sys_reset
         // ├───────────────├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤───────────────┤   ├──────────────├───────────────├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
-        //  36              37              38              39              40              41              42                  43              44              45              46             47              48              49
-            &cmo Fn         &kp F11         &kp F12         &trans          &trans          &bootloader     &trans              &trans          &bootloader     &trans          &trans         &trans          &trans          &cmo Fn
+        //  36              37              38              39              40              41              42                  43              44              45              46              47              48              49
+            &out OUT_TOG    &kp F11         &kp F12         &trans          &trans          &trans          &trans              &trans          &trans          &trans          &trans          &trans          &trans          &kp C_POWER
         // ╰───────────────┴───────────────┴───────────────┼───────────────┼───────────────┼───────────────┤───────────────┤   ├──────────────├───────────────├───────────────┼───────────────┼───────────────┴───────────────┴───────────────╯
         //                                                  50              51              52              53                   54             55              56              57
                                                             &trans          &kp C_BRI_DN    &kp C_BRI_UP    &cmo L2             &cmo L2        &kp CAPSLOCK    &trans          &trans          
