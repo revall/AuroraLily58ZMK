@@ -48,11 +48,11 @@
         //  24              25              26              27              28              29                                                  30              31              32              33              34              35
             &bkspc_del      &kp A           &kp S           &kp D           &kp F           &kp G                                               &kp H           &kp J           &kp K           &kp L           &kp SQT         &kp ENTER
         // ├───────────────├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤───────────────┤   ├──────────────├───────────────├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
-        //  36              37              38              39              40              41              42                  43              44              45              46             47              48              49
-            &kp LCTRL       &mt LCTRL Z     &mt LALT X      &mt LGUI C      &mt TAB V       &kp B           &kp LBKT            &kp RBKT        &kp N           &mt TAB M       &mt RGUI COMMA &mt RALT DOT    &mt RCTRL SLASH &kp RSHFT
+        //  36              37              38              39              40              41              42                  43              44              45              46              47              48              49
+            &kp LCTRL       &mt LCTRL Z     &mt LALT X      &mt LGUI C      &mt TAB V       &kp B           &kp LBKT            &kp RBKT        &kp N           &mt TAB M       &mt RGUI COMMA  &mt RALT DOT    &mt RCTRL SLASH &kp RSHFT
         // ╰───────────────┴───────────────┴───────────────┼───────────────┼───────────────┼───────────────┤───────────────┤   ├──────────────├───────────────├───────────────┼───────────────┼───────────────┴───────────────┴───────────────╯
         //                                                  50              51              52              53                   54             55              56              57
-                                                            &kp LGUI        &kp ENTER       &mt LSHFT SPACE &smart_num L2 0      &smart_num L2 0 &bkspc_del     &smart_shift    &kp DEL
+                                                            &kp LGUI        &kp ENTER       &mt LSHIFT SPACE &smart_num L2 0     &smart_num L2 0 &bkspc_del     &smart_shift    &kp DEL
         //                                                 ╰───────────────┴───────────────┴───────────────┴───────────────╯   ╰──────────────┴───────────────┴───────────────┴───────────────╯
             >;
 
