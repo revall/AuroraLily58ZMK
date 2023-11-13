@@ -220,7 +220,7 @@ layers:
   - C
   - V
   - B
-  - {t: '[', s: '{'}
+  - $$mdi:apple-keyboard-option$$
   - {t: ']', s: '}'}
   - N
   - M
