@@ -201,7 +201,7 @@ layers:
   - I
   - O
   - P
-  - {t: Fn, h: '$$mdi:close-box$$'}
+  - {t: '$$mdi:close-box$$', h: L2}
   - $$mdi:apple-keyboard-control$$
   - A
   - S
