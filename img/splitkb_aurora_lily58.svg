@@ -1464,7 +1464,7 @@ path.combo {
 <g transform="translate(1280, 80)" class="key keypos-11">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.5em">&amp;csl</tspan><tspan x="0" dy="1.0em">3</tspan>
+<tspan x="0" dy="-0.5em">&amp;cmo</tspan><tspan x="0" dy="1.0em">3</tspan>
 </text>
 </g>
 <g transform="translate(40, 160)" class="key keypos-12">
@@ -1513,9 +1513,7 @@ path.combo {
 </g>
 <g transform="translate(1280, 160)" class="key keypos-23">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.5em">&amp;cmo</tspan><tspan x="0" dy="1.0em">3</tspan>
-</text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 60%">&amp;kpBACKSLASH</tspan></text>
 </g>
 <g transform="translate(40, 240)" class="key keypos-24">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -1592,7 +1590,7 @@ path.combo {
 </g>
 <g transform="translate(520, 260)" class="key keypos-42">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:apple-keyboard-option"/>
+<text x="0" y="0" class="key tap">LGUI</text>
 </g>
 <g transform="translate(800, 260)" class="key keypos-43">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -1628,7 +1626,7 @@ path.combo {
 </g>
 <g transform="translate(240, 370)" class="key keypos-50">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<text x="0" y="0" class="key tap">LGUI</text>
+<use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:apple-keyboard-option"/>
 </g>
 <g transform="translate(320, 372)" class="key enter keypos-51">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key enter"/>

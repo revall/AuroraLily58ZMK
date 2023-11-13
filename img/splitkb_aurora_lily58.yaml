@@ -189,7 +189,7 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - '&csl 3'
+  - '&cmo 3'
   - $$mdi:keyboard-tab$$
   - Q
   - W
@@ -201,7 +201,7 @@ layers:
   - I
   - O
   - P
-  - '&cmo 3'
+  - '&kpBACKSLASH'
   - $$mdi:apple-keyboard-control$$
   - A
   - S
@@ -220,7 +220,7 @@ layers:
   - C
   - V
   - B
-  - $$mdi:apple-keyboard-option$$
+  - LGUI
   - {t: ']', s: '}'}
   - N
   - M
@@ -228,7 +228,7 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
-  - LGUI
+  - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:keyboard-space$$
