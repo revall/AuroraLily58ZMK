@@ -99,7 +99,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:gesture-tap-hold$$'}
-  - {t: '$$mdi:apple-keyboard-command$$', h: '$$mdi:gesture-tap-hold$$'}
+  - '&sk LCMD 0'
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -174,8 +174,8 @@ layers:
   - $$mdi:apple-keyboard-caps$$
   - {t: '$$mdi:close-box$$', h: L2}
   - {t: '$$mdi:close-box$$', h: L2}
-  - '&mkp MB2'
   - '&mkp MB1'
+  - '&mkp MB2'
   - {t: '$$mdi:transfer$$', type: trans}
   Game:
   - $$mdi:keyboard-esc$$
