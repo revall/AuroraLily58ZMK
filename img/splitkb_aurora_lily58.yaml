@@ -1,6 +1,6 @@
 layout: {qmk_keyboard: lily58_rotated}
 layers:
-  L1:
+  '1':
   - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -13,7 +13,7 @@ layers:
   - {t: '9', s: (}
   - {t: '0', s: )}
   - {t: '`', s: '~'}
-  - {t: Fn, h: toggle}
+  - {t: '3', h: toggle}
   - Q
   - W
   - E
@@ -59,7 +59,7 @@ layers:
   - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$', type: backspace}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - $$mdi:keyboard-tab$$
-  L2:
+  '2':
   - $$mdi:bluetooth-off$$
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
@@ -71,7 +71,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Game, h: toggle}
+  - {t: '4', h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -118,7 +118,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  Fn:
+  '3':
   - {t: '$$mdi:transfer$$', type: trans}
   - LA(LC(LG(2)))
   - LA(LC(LG(3)))
@@ -177,7 +177,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-caps$$
   - {t: '$$mdi:transfer$$', type: trans}
-  Game:
+  '4':
   - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -230,8 +230,8 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - $$mdi:keyboard-space$$
   - {t: L2, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$', type: backspace}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
@@ -239,52 +239,52 @@ layers:
 combos:
 - p: [13, 25]
   k: '!'
-  l: [L1, L2]
+  l: ['1', '2']
 - p: [14, 26]
   k: '@'
-  l: [L1, L2]
+  l: ['1', '2']
 - p: [15, 27]
   k: '#'
-  l: [L1, L2]
+  l: ['1', '2']
 - p: [16, 28]
   k: $
-  l: [L1, L2]
+  l: ['1', '2']
 - p: [17, 29]
   k: '%'
-  l: [L1, L2]
+  l: ['1', '2']
 - p: [25, 37]
   k: ^
-  l: [L1, L2]
+  l: ['1', '2']
 - p: [26, 38]
   k: '&'
-  l: [L1, L2]
+  l: ['1', '2']
 - p: [27, 39]
   k: '*'
-  l: [L1, L2]
+  l: ['1', '2']
 - p: [28, 40]
   k: (
-  l: [L1, L2]
+  l: ['1', '2']
 - p: [29, 41]
   k: )
-  l: [L1, L2]
+  l: ['1', '2']
 - p: [19, 31]
   k: {h: '-', s: _}
-  l: [L1, L2, Fn]
+  l: ['1', '2', '3']
 - p: [20, 32]
   k: {h: '=', s: +}
-  l: [L1, L2, Fn]
+  l: ['1', '2', '3']
 - p: [21, 33]
   k: {h: ;, s: ':'}
-  l: [L1, L2, Fn]
+  l: ['1', '2', '3']
 - p: [31, 45]
   k: {h: '[', s: '{'}
-  l: [L1, L2, Fn]
+  l: ['1', '2', '3']
 - p: [32, 46]
   k: {h: ']', s: '}'}
-  l: [L1, L2, Fn]
+  l: ['1', '2', '3']
 - p: [33, 47]
   k: {h: \, s: '|'}
-  l: [L1, L2, Fn]
+  l: ['1', '2', '3']
 - p: [18, 19]
   k: $$mdi:play-pause$$
-  l: [L1, L2, Fn]
+  l: ['1', '2', '3']

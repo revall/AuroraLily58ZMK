@@ -436,8 +436,8 @@ path.combo {
     --color--key--border: var(--color--material--teal--100);
 }
 </style>
-<g transform="translate(0, 0)" class="layer-L1">
-<text x="0" y="0" class="label">L1</text>
+<g transform="translate(0, 0)" class="layer-1">
+<text x="0" y="0" class="label">1</text>
 <g transform="translate(0, 0)">
 <g transform="translate(40, 80)" class="key keypos-0">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -500,7 +500,7 @@ path.combo {
 </g>
 <g transform="translate(40, 160)" class="key keypos-12">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<text x="0" y="0" class="key tap">Fn</text>
+<text x="0" y="0" class="key tap">3</text>
 <text x="0" y="34" class="key hold"><tspan style="font-size: 83%">toggle</tspan></text>
 </g>
 <g transform="translate(120, 150)" class="key keypos-13">
@@ -783,8 +783,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(0, 452)" class="layer-L2">
-<text x="0" y="0" class="label">L2</text>
+<g transform="translate(0, 452)" class="layer-2">
+<text x="0" y="0" class="label">2</text>
 <g transform="translate(0, 0)">
 <g transform="translate(40, 80)" class="key keypos-0">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -837,7 +837,7 @@ path.combo {
 </g>
 <g transform="translate(1280, 80)" class="key keypos-11">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<text x="0" y="0" class="key tap">Game</text>
+<text x="0" y="0" class="key tap">4</text>
 <text x="0" y="34" class="key hold"><tspan style="font-size: 83%">toggle</tspan></text>
 </g>
 <g transform="translate(40, 160)" class="key trans keypos-12">
@@ -1117,8 +1117,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(0, 904)" class="layer-Fn">
-<text x="0" y="0" class="label">Fn</text>
+<g transform="translate(0, 904)" class="layer-3">
+<text x="0" y="0" class="label">3</text>
 <g transform="translate(0, 0)">
 <g transform="translate(40, 80)" class="key trans keypos-0">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key trans"/>
@@ -1416,8 +1416,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(0, 1356)" class="layer-Game">
-<text x="0" y="0" class="label">Game</text>
+<g transform="translate(0, 1356)" class="layer-4">
+<text x="0" y="0" class="label">4</text>
 <g transform="translate(0, 0)">
 <g transform="translate(40, 80)" class="key keypos-0">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -1648,11 +1648,11 @@ path.combo {
 <g transform="translate(400, 380)" class="key keypos-52">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:keyboard-space"/>
+<use href="#mdi:apple-keyboard-shift" xlink:href="#mdi:apple-keyboard-shift" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:apple-keyboard-shift"/>
 </g>
 <g transform="translate(500, 380) rotate(30.0)" class="key keypos-53">
 <rect rx="4" ry="4" x="-38" y="-58" width="77" height="117" class="key"/>
 <use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:keyboard-space"/>
-<use href="#mdi:apple-keyboard-shift" xlink:href="#mdi:apple-keyboard-shift" x="-9" y="36" height="18" width="18.0" class="key hold glyph mdi:apple-keyboard-shift"/>
 </g>
 <g transform="translate(820, 380) rotate(-30.0)" class="key keypos-54">
 <rect rx="4" ry="4" x="-38" y="-58" width="77" height="117" class="key"/>
