@@ -168,7 +168,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&trans U_BTN3 U_BTN2 U_BTN1'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - '&mkp MCLK'
+  - '&mkp RCLK'
+  - '&mkp LCLK'
   - {t: '$$mdi:close-box$$', h: L2}
   - {t: '$$mdi:close-box$$', h: L2}
   - {t: '$$mdi:transfer$$', type: trans}
