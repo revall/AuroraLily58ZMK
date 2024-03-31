@@ -132,10 +132,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:close-box$$', h: Fn}
-  - '&msc SCROLL_HOR(-100)'
-  - '&msc SCROLL_VERT(-100)'
-  - '&msc SCROLL_VERT(100)'
-  - '&msc SCROLL_HOR(100)'
+  - '&msc SCRL_LEFT'
+  - '&msc SCRL_DOWN'
+  - '&msc SCRL_UP'
+  - '&msc SCRL_RIGHT'
   - {t: '$$mdi:transfer$$', type: trans}
   - F1
   - F2
@@ -144,10 +144,10 @@ layers:
   - F5
   - {t: '$$mdi:close-box$$', h: Fn}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&mmv MOVE_HOR(-1250)'
-  - '&mmv MOVE_VERT(1250)'
-  - '&mmv MOVE_VERT(-1250)'
-  - '&mmv MOVE_HOR(1250)'
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_UP'
+  - '&mmv MOVE_RIGHT'
   - {t: '$$mdi:transfer$$', type: trans}
   - F6
   - F7
@@ -168,10 +168,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - '&mkp MB3'
-  - '&mkp MB2'
-  - '&mkp MB1'
+  - '&trans U_BTN3 U_BTN2 U_BTN1'
   - {t: '$$mdi:close-box$$', h: L2}
   - {t: '$$mdi:close-box$$', h: L2}
   - {t: '$$mdi:transfer$$', type: trans}
