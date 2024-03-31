@@ -132,10 +132,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:close-box$$', h: Fn}
-  - '&mwh SCROLL_HOR(-100)'
-  - '&mwh SCROLL_VERT(-100)'
-  - '&mwh SCROLL_VERT(100)'
-  - '&mwh SCROLL_HOR(100)'
+  - '&msc SCROLL_HOR(-100)'
+  - '&msc SCROLL_VERT(-100)'
+  - '&msc SCROLL_VERT(100)'
+  - '&msc SCROLL_HOR(100)'
   - {t: '$$mdi:transfer$$', type: trans}
   - F1
   - F2
