@@ -7,7 +7,7 @@
 
     default_kscan: kscan {
         compatible = "zmk,kscan-gpio-direct";
-        label = "default_kscan";
+        //label = "default_kscan";
 
         input-gpios
             = <&pro_micro 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // Row A from the schematic file
@@ -22,7 +22,7 @@
     trackpad@2a {
 	    compatible = "cirque,pinnacle";
 	    reg = <0x2a>;
-	    label = "Cirque_Trackpad";
+	    //label = "Cirque_Trackpad";
         dr-gpios = <&pro_micro	3	GPIO_ACTIVE_HIGH>;
 	    rotate-90;
 	    //sleep;
