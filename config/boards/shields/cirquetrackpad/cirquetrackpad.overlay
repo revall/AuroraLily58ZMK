@@ -14,11 +14,10 @@
             //, <&xiao_d 1 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // Row B from the schematic file
             //, <&xiao_d 0 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // Row C from the schematic file
             ;
-            
     };
 };
 
-&xiao_i2c {
+&pro_micro  {
     status = "okay";
     trackpad@2a {
 	    compatible = "cirque,pinnacle";
