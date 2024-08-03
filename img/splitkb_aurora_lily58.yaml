@@ -132,10 +132,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:close-box$$', h: Fn}
-  - '&mkp SCRL_LEFT'
-  - '&mkp SCRL_DOWN'
-  - '&mkp SCRL_UP'
-  - '&mkp SCRL_RIGHT'
+  - '&msc SCRL_LEFT'
+  - '&msc SCRL_DOWN'
+  - '&msc SCRL_UP'
+  - '&msc SCRL_RIGHT'
   - {t: '$$mdi:transfer$$', type: trans}
   - F1
   - F2
@@ -144,10 +144,10 @@ layers:
   - F5
   - {t: '$$mdi:close-box$$', h: Fn}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&mkp MOVE_LEFT'
-  - '&mkp MOVE_DOWN'
-  - '&mkp MOVE_UP'
-  - '&mkp MOVE_RIGHT'
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_UP'
+  - '&mmv MOVE_RIGHT'
   - {t: '$$mdi:transfer$$', type: trans}
   - F6
   - F7
