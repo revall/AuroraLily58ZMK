@@ -68,13 +68,13 @@
 
      From: https://github.com/urob/zmk-config/
      */
-    /omit-if-no-ref/ num_dance: num_dance {
-      label = "NUM_DANCE";
-      compatible = "zmk,behavior-tap-dance";
-      tapping-term-ms = <TAPPING_TERM_MS>;
-      bindings = <&sl L2>, <&num_word>;
-      #binding-cells = <0>;
-    };
+    ///omit-if-no-ref/ num_dance: num_dance {
+    //  label = "NUM_DANCE";
+    //  compatible = "zmk,behavior-tap-dance";
+    //  tapping-term-ms = <TAPPING_TERM_MS>;
+    //  bindings = <&sl L2>, <&num_word>;
+    //  #binding-cells = <0>;
+    // };
 
     /*
      - tap: &kp <PARAM_2>
