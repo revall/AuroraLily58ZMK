@@ -4,7 +4,7 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: heyjva
       url-base: https://github.com/heyjva
-    - name: cirque-input-module
+    - name: petejohanson
       url-base: https://github.com/petejohanson
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
@@ -14,7 +14,7 @@ manifest:
       revision: feat/pointers-move-scroll
       import: app/west.yml
     - name: cirque-input-module
-      remote: cirque-input-module
+      remote: petejohanson
       revision: main
   self:
     path: config
