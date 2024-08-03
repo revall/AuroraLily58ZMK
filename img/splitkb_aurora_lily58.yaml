@@ -120,8 +120,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   '3':
   - {t: '$$mdi:transfer$$', type: trans}
-  - LA(LC(LG(2)))
-  - LA(LC(LG(3)))
+  - Alt+Ctl+Gui+ 2
+  - Alt+Ctl+Gui+ 3
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
