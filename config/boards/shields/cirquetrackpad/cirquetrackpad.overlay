@@ -8,7 +8,7 @@
     default_kscan: kscan {
         compatible = "zmk,kscan-gpio-direct";
         //label = "default_kscan";
-        diode-direction = "col2row";
+        //diode-direction = "col2row";
 
         input-gpios
             = <&pro_micro 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // Row A from the schematic file
