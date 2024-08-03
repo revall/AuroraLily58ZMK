@@ -11,13 +11,13 @@
 
         input-gpios
             = <&pro_micro 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // Row A from the schematic file
-            //, <&xiao_d 1 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // Row B from the schematic file
-            //, <&xiao_d 0 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // Row C from the schematic file
+            //, <&pro_micro 1 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // Row B from the schematic file
+            //, <&pro_micro 0 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // Row C from the schematic file
             ;
     };
 };
 
-&pro_micro  {
+&i2c0  {
     status = "okay";
     trackpad@2a {
 	    compatible = "cirque,pinnacle";
