@@ -2,19 +2,15 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: heyjva
-      url-base: https://github.com/heyjva
-    - name: petejohanson
-      url-base: https://github.com/petejohanson
-    # Additional modules containing boards/shields/custom code can be listed here as well
-    # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
+    - name: badjeff
+      url-base: https://github.com/badjeff
   projects:
-    - name: zmk-view-trackpad
-      remote: heyjva
+    - name: zmk
+      remote: badjeff
       revision: feat/pointers-move-scroll
       import: app/west.yml
     - name: cirque-input-module
-      remote: petejohanson
+      remote: badjeff
       revision: main
   self:
     path: config
