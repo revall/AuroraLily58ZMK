@@ -13,12 +13,6 @@
     };
 };
 
-&right_encoder {
-    status = "okay";
-    a-gpios = <&pro_micro 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-    b-gpios = <&pro_micro 21 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-};
-
 / {
     /* THIS only makes keymap binding happy, nothing happens on peripheral side */
 	glidepoint1: virtual_input {

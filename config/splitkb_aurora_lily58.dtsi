@@ -12,15 +12,6 @@
     };
 };
 
-&right_encoder: right_encoder {
-        compatible = "alps,ec11";
-        steps = <80>;
-        status = "disabled";
-
-        a-gpios = <&pro_micro 18 GPIO_PULL_UP>;
-        b-gpios = <&pro_micro 19 GPIO_PULL_UP>;
-    };
-
 / {
 	/* assign `input-listener` to all pointing devices */
 	/* &glidepoint0 on central, &glidepoint1 on peripheral */
