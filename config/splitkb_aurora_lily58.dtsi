@@ -21,7 +21,7 @@
         // xy-swap;
         y-invert;
         // x-invert;
-        scale-multiplier = <2>;
+        scale-multiplier = <1.5>;
 	};
 
     tpad_peripheral_listener {
@@ -30,6 +30,6 @@
         // xy-swap;
         y-invert;
         // x-invert;
-        scale-multiplier = <2>;
+        scale-multiplier = <1.5>;
     };
 };
