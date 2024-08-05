@@ -5,3 +5,5 @@ modules/
 tools/
 .west/
 .DS_Store
+knucklehead/
+config/oldboards/
