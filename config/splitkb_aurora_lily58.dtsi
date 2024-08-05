@@ -18,9 +18,9 @@
     tpad_central_listener {
         compatible = "zmk,input-listener";
         device = <&glidepoint0>;
-        xy-swap;
-        y-invert;
-        x-invert;
+        //xy-swap;
+        //y-invert;
+        //x-invert;
         scale-multiplier = <2>;
 	};
 
