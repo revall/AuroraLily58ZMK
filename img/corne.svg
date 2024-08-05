@@ -455,7 +455,7 @@ path.combo {
 }
 </style>
 <g transform="translate(0, 0)" class="layer-1">
-<text x="0" y="0" class="label">1</text>
+<text x="0" y="0" class="label" id="x_x">1</text>
 <g transform="translate(0, 0)">
 <g transform="translate(40, 70)" class="key keypos-0">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -725,7 +725,7 @@ path.combo {
 </g>
 </g>
 <g transform="translate(0, 392)" class="layer-2">
-<text x="0" y="0" class="label">2</text>
+<text x="0" y="0" class="label" id="x_x">2</text>
 <g transform="translate(0, 0)">
 <g transform="translate(40, 70)" class="key trans keypos-0">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key trans"/>
@@ -733,18 +733,21 @@ path.combo {
 </g>
 <g transform="translate(120, 70)" class="key keypos-1">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<text x="0" y="0" class="key tap">1</text>
-<text x="0" y="-34" class="key shifted">!</text>
+<a href="#x_x">
+<text x="0" y="0" class="key tap layer-activator">1</text>
+</a><text x="0" y="-34" class="key shifted">!</text>
 </g>
 <g transform="translate(200, 50)" class="key keypos-2">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<text x="0" y="0" class="key tap">2</text>
-<text x="0" y="-34" class="key shifted">@</text>
+<a href="#x_x">
+<text x="0" y="0" class="key tap layer-activator">2</text>
+</a><text x="0" y="-34" class="key shifted">@</text>
 </g>
 <g transform="translate(280, 40)" class="key keypos-3">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<text x="0" y="0" class="key tap">3</text>
-<text x="0" y="-34" class="key shifted">#</text>
+<a href="#x_x">
+<text x="0" y="0" class="key tap layer-activator">3</text>
+</a><text x="0" y="-34" class="key shifted">#</text>
 </g>
 <g transform="translate(360, 50)" class="key keypos-4">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -989,7 +992,7 @@ path.combo {
 </g>
 </g>
 <g transform="translate(0, 785)" class="layer-3">
-<text x="0" y="0" class="label">3</text>
+<text x="0" y="0" class="label" id="x_x">3</text>
 <g transform="translate(0, 21)">
 <g transform="translate(40, 70)" class="key keypos-0">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -1205,18 +1208,21 @@ path.combo {
 </g>
 <g class="combo combopos-7">
 <rect rx="4" ry="4" x="102" y="92" width="36" height="36" class="combo"/>
-<text x="120" y="124" class="combo hold">1</text>
-<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="111" y="96" height="18" width="18.0" class="combo shifted glyph mdi:bluetooth-connect"/>
+<a href="#x_x">
+<text x="120" y="124" class="combo hold layer-activator">1</text>
+</a><use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="111" y="96" height="18" width="18.0" class="combo shifted glyph mdi:bluetooth-connect"/>
 </g>
 <g class="combo combopos-8">
 <rect rx="4" ry="4" x="182" y="72" width="36" height="36" class="combo"/>
-<text x="200" y="104" class="combo hold">2</text>
-<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="191" y="76" height="18" width="18.0" class="combo shifted glyph mdi:bluetooth-connect"/>
+<a href="#x_x">
+<text x="200" y="104" class="combo hold layer-activator">2</text>
+</a><use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="191" y="76" height="18" width="18.0" class="combo shifted glyph mdi:bluetooth-connect"/>
 </g>
 <g class="combo combopos-9">
 <rect rx="4" ry="4" x="262" y="62" width="36" height="36" class="combo"/>
-<text x="280" y="94" class="combo hold">3</text>
-<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="271" y="66" height="18" width="18.0" class="combo shifted glyph mdi:bluetooth-connect"/>
+<a href="#x_x">
+<text x="280" y="94" class="combo hold layer-activator">3</text>
+</a><use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="271" y="66" height="18" width="18.0" class="combo shifted glyph mdi:bluetooth-connect"/>
 </g>
 <g class="combo combopos-10">
 <rect rx="4" ry="4" x="342" y="72" width="36" height="36" class="combo"/>
