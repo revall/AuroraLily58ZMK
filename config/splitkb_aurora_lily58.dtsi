@@ -6,7 +6,7 @@
         status = "disabled";
         dr-gpios = <&pro_micro 1 (GPIO_ACTIVE_HIGH)>;
 
-        sensitivity = "1x";
+        sensitivity = ".6x";
         sleep;
         //no-taps;
     };
@@ -21,7 +21,7 @@
         // xy-swap;
         y-invert;
         // x-invert;
-        scale-multiplier = <1.5>;
+        scale-multiplier = <2>;
 	};
 
     tpad_peripheral_listener {
@@ -30,6 +30,6 @@
         // xy-swap;
         y-invert;
         // x-invert;
-        scale-multiplier = <1.5>;
+        scale-multiplier = <2>;
     };
 };
