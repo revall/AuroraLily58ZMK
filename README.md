@@ -1,4 +1,4 @@
-#ZMK config files for an Aurora Lily58
+# ZMK config files for an Aurora Lily58
 
 <img src="https://github.com/heyjva/Knucklehead-zmk-config/blob/main/img/20240805_081439.jpg?raw=true" alt="Picture of Aurora Lily58 with niceview on left and trackpad on right" width="1000"/>
 
