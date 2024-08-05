@@ -84,7 +84,7 @@ layers:
   - $$mdi:skip-next$$
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:bluetooth-off$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '6', s: ^}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
