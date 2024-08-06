@@ -6,9 +6,10 @@
         status = "disabled";
         dr-gpios = <&pro_micro 1 (GPIO_ACTIVE_HIGH)>;
 
-        sensitivity = "3x";
+        sensitivity = "1x";
         sleep;
-        //no-taps;
+        no-taps;
+        no-smoothing;
     };
 };
 
