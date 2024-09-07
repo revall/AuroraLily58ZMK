@@ -1,7 +1,7 @@
 if SHIELD_SPLITKB_AURORA_LILY58_DONGLE
 
 config ZMK_KEYBOARD_NAME
-	default "Split Boy"
+	default "Aurora Lily58"
 
 config ZMK_SPLIT_ROLE_CENTRAL
 	default y
