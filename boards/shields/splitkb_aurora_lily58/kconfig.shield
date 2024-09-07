@@ -1,5 +1,5 @@
-config SHIELD_SPLITKB_AURORA_LILY58_DONGLE
-	def_bool $(shields_list_contains,SPLITKB_AURORA_LILY58_dongle)
+config SHIELD_DONGLE
+	def_bool $(shields_list_contains,SPLITKB_dongle)
 
 config SHIELD_SPLITKB_AURORA_LILY58_LEFT
 	def_bool $(shields_list_contains,SPLITKB_AURORA_LILY58_left)
