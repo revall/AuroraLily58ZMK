@@ -1,10 +1,1 @@
 #include "splitkb_aurora_lily58.dtsi"
-
-/ {
-    /* define virtual input, will be resurrected for emitting input event */
-	/* NOTE: set `device = <&glidepoint1>` in `zmk,input-listener` */
-	glidepoint1: virtual_input {
-		compatible = "zmk,virtual-input";
-	};
-
-};
