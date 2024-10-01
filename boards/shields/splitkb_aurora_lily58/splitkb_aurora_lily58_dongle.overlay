@@ -16,7 +16,7 @@
 / {
     /* define virtual input, will be resurrected for emitting input event */
 	/* NOTE: set `device = <&glidepoint1>` in `zmk,input-listener` */
-	glidepoint0: virtual_input {
+	glidepoint1: virtual_input {
 		compatible = "zmk,virtual-input";
 	};
 
@@ -50,11 +50,4 @@
         inversion-on;
         prechargep = <0x22>;
     };
-};
-
-/{
-  trackpad_listener { 
-    compatible = "zmk,input-listener";
-    device = <&glidepoint1>;
-  };
 };
