@@ -25,7 +25,7 @@
         /* peripheral side input device, used to... */
 		/*  - be intecepted on peripheral; */
 		/*  - and then, be resurrected as `zmk,virtual-device` on central; */
-        device = <&glidepoint1>;
+        device = <&glidepoint0>;
 
         /* channel id, used to be be transfered along with all input events. */
 		/* NOTE 1: pick any 8bit integer. (1 - 255) */

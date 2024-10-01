@@ -1,6 +1,6 @@
 &i2c0 {
     status = "disabled";
-    glidepoint0: glidepoint@2a {
+    glidepoint1: glidepoint@2a {
         compatible = "cirque,pinnacle";
         reg = <0x2a>;
         status = "disabled";
@@ -9,7 +9,6 @@
         sensitivity = "1x";
         sleep;
         no-taps;
-        no-smoothing;
     };
 };
 
