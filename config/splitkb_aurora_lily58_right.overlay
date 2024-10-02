@@ -6,13 +6,13 @@
     };
 };
 
-&glidepoint {
+&glidepoint0 {
     status = "okay";
 };
 
 / {
     /* THIS only makes keymap binding happy, nothing happens on peripheral side */
-	glidepoint: virtual_input {
+	glidepoint0: virtual_input {
 		compatible = "zmk,virtual-input";
 	};
 
@@ -22,7 +22,7 @@
         /* peripheral side input device, used to... */
 		/*  - be intecepted on peripheral; */
 		/*  - and then, be resurrected as `zmk,virtual-device` on central; */
-        device = <&glidepoint>;
+        device = <&glidepoint0>;
 
         /* channel id, used to be be transfered along with all input events. */
 		/* NOTE 1: pick any 8bit integer. (1 - 255) */
