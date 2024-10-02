@@ -1,21 +1,18 @@
 #include "splitkb_aurora_lily58.dtsi"
 
-&i2c0 {
-    status = "okay";
-    glidepoint0: glidepoint@2a {
-        status = "okay";
-    };
-};
-
 &i2c0_default {
     group1 {
       bias-pull-up;
     };
 };
 
+&glidepoint {
+    status = "okay";
+};
+
 / {
     /* THIS only makes keymap binding happy, nothing happens on peripheral side */
-	glidepoint1: virtual_input {
+	glidepoint: virtual_input {
 		compatible = "zmk,virtual-input";
 	};
 
@@ -25,7 +22,7 @@
         /* peripheral side input device, used to... */
 		/*  - be intecepted on peripheral; */
 		/*  - and then, be resurrected as `zmk,virtual-device` on central; */
-        device = <&glidepoint0>;
+        device = <&glidepoint>;
 
         /* channel id, used to be be transfered along with all input events. */
 		/* NOTE 1: pick any 8bit integer. (1 - 255) */
