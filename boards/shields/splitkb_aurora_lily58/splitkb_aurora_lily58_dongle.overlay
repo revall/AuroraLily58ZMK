@@ -13,10 +13,14 @@
     };
 };
 
+&glidepoint0 {
+    status = "okay";
+};
+
 / {
     /* define virtual input, will be resurrected for emitting input event */
 	/* NOTE: set `device = <&glidepoint>` in `zmk,input-listener` */
-	glidepoint: virtual_input {
+	glidepoint1: virtual_input {
 		compatible = "zmk,virtual-input";
 	};
 
@@ -29,7 +33,7 @@
 		relay-channel = <102>;
 
 		/* virtual input device on central, which used to emit input event as an agent device */
-		device = <&glidepoint>;
+		device = <&glidepoint1>;
 	};
 };
 
