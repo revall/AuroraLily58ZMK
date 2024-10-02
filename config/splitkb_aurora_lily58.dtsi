@@ -8,7 +8,7 @@
 
         sensitivity = "1x";
         sleep;
-        no-taps;
+        //no-taps;
     };
 };
 
@@ -18,9 +18,9 @@
     tpad_central_listener {
         compatible = "zmk,input-listener";
         device = <&glidepoint0>;
-        // xy-swap;
+        //xy-swap;
         y-invert;
-        // x-invert;
+        //x-invert;
         scale-multiplier = <2>;
 	};
 
@@ -29,7 +29,7 @@
         device = <&glidepoint1>;
         // xy-swap;
         y-invert;
-        // x-invert;
+        //x-invert;
         scale-multiplier = <2>;
     };
 };

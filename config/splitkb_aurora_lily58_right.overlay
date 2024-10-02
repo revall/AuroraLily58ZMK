@@ -1,13 +1,16 @@
 #include "splitkb_aurora_lily58.dtsi"
 
+&i2c0 {
+    status = "okay";
+    glidepoint0: glidepoint@2a {
+        status = "okay";
+    };
+};
+
 &i2c0_default {
     group1 {
       bias-pull-up;
     };
-};
-
-&glidepoint0 {
-    status = "okay";
 };
 
 / {
